@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
