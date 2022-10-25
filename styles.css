@@ -32,12 +32,27 @@ ul {
     list-style: none;
 }
 
-a, .subtext {    
+a, .subtext, .source {    
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
     font-weight: normal;
     margin: 0;
+}
+
+.introimage {
+    display:flex;
+    flex-direction: column;
+}
+
+.introimage a, .cardcontainer a {
+    color: #656d7a;
+    font-size: 12px;
+    text-align: center;
+}
+
+.introimage a {
+    color: #f9faf8;
 }
 
 .first {
@@ -106,6 +121,7 @@ a, .subtext {
 .cardsubtext {
     text-align: center;
     font-size: 16px;
+    margin-bottom: 4px;
 }
 
 .quotecontainer {
