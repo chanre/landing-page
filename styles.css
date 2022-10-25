@@ -5,15 +5,19 @@ body {
 
 .header {
     height: 100px;
-    font-weight: bold;
-    font-size: 24px;
     background-color: #1F2937;
-    color: #F9FAF8;
-    padding: 0 3em 0 3em;
+    padding: 0 6em 0 6em;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+.headertext {
+    font-weight: bold;
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 0;
+}   
 
 ul {
     display: flex;
@@ -28,6 +32,7 @@ a, .subtext {
     color: #E5E7EB;
     text-decoration: none;
     font-weight: normal;
+    margin: 0;
 }
 
 .first {
@@ -55,6 +60,8 @@ a, .subtext {
     padding: 8px 16px 8px 16px;
     font-size: 18px;
     width: 150px;
+    height: 50px;
+    margin-top: 16px;
     font-weight: bold;
     color: #F9FAF8;
     background-color: #3882F6;
@@ -122,3 +129,25 @@ a, .subtext {
     text-align: right;
     color: #1F2937;
 }
+
+.final {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.calltoaction {
+    background-color: #3882F6;
+    width: 1200px;
+    height: 150px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.calltoaction .signup {
+    margin: 0;
+}
+
