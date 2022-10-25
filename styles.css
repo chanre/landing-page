@@ -43,6 +43,7 @@ a, .subtext, .source {
 .introimage {
     display:flex;
     flex-direction: column;
+    gap: 8px;
 }
 
 .introimage a, .cardcontainer a {
